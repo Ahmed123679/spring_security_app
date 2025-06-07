@@ -15,4 +15,21 @@ public class HomeController
     {
         return "index";
     }
+    @RequestMapping(path="/login", method=RequestMethod.GET)
+    public String login()
+    {
+            return "login";
+    }
+     @RequestMapping(path="/logout-sucess", method=RequestMethod.GET)
+    public String logout()
+    {
+        return "logout";
+
+    }
+     @RequestMapping(path="login-error", method=RequestMethod.GET)
+    public String logineError()
+    {
+        return "login-error";
+
+    }
 }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Error</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8d7da;
+            color: #721c24;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .error-container {
+            background: #f5c6cb;
+            padding: 2rem 3rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        a {
+            color: #721c24;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>Login Failed</h1>
+        <p>Bad credentials. Please check your username and password.</p>
+        <a href="/login">Try Again</a>
+    </div>
+</body>
+</html>
